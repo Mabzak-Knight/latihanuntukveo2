@@ -1,1 +1,37 @@
-tes
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Ular — Web Game tes</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<main class="wrap">
+			<header>
+				<h1>Ular (Snake)</h1>
+				<div class="scoreboard">
+					Skor: <span id="score">0</span>
+				</div>
+			</header>
+
+			<canvas id="game" width="400" height="400" aria-label="Permainan ular"></canvas>
+
+			<div class="controls">
+				<button id="btn-up" class="ctrl">↑</button>
+				<div class="ctrl-row">
+					<button id="btn-left" class="ctrl">←</button>
+					<button id="btn-down" class="ctrl">↓</button>
+					<button id="btn-right" class="ctrl">→</button>
+				</div>
+			</div>
+
+			<div class="actions">
+				<button id="restart">Mulai Ulang</button>
+				<p class="hint">Gunakan tombol panah atau WASD untuk bergerak.</p>
+			</div>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
